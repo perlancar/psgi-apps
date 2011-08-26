@@ -4,6 +4,10 @@
 
 # todo: autodetect chinese text
 
+# saat ini jika kita submit chinese text, middleware Lint akan complaint 'body
+# must be bytes, ...' karena itu kita disable aja Lint saat menjalankan ini,
+# mis: 'plackup -E deployment speed-reader.pl'
+
 use 5.010;
 use strict;
 use warnings;
