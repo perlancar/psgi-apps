@@ -1,0 +1,2 @@
+#!/bin/bash
+plackup -E deployment speed-reader.pl

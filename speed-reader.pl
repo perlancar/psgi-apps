@@ -81,6 +81,7 @@ post '/' => sub {
 
     return <<_;
 <head>$meta</head>
+<div style="height: 200px"></div>
 <div id=display style="margin-left: auto; margin-right: auto; font-size: ${\(int(48-$chunk_size*3))}pt; text-align: center"></div>
 <script>
 var chunks = ${\($json->encode(\@chunks))}
